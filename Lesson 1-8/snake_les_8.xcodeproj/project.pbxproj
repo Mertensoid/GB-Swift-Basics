@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E434CF2752399B0050975C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E434CD2752399B0050975C /* Main.storyboard */; };
+		84E434D02752399B0050975C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E434CE2752399B0050975C /* LaunchScreen.storyboard */; };
 		D3AF80B0274FFB2200CB99C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80AF274FFB2200CB99C0 /* AppDelegate.swift */; };
 		D3AF80B6274FFB2200CB99C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80B5274FFB2200CB99C0 /* GameScene.swift */; };
 		D3AF80B8274FFB2200CB99C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80B7274FFB2200CB99C0 /* GameViewController.swift */; };
-		D3AF80BB274FFB2200CB99C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AF80B9274FFB2200CB99C0 /* Main.storyboard */; };
 		D3AF80BD274FFB2300CB99C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AF80BC274FFB2300CB99C0 /* Assets.xcassets */; };
-		D3AF80C0274FFB2300CB99C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AF80BE274FFB2300CB99C0 /* LaunchScreen.storyboard */; };
 		D3AF80C7275002F000CB99C0 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80C6275002F000CB99C0 /* Apple.swift */; };
 		D3AF80C9275008D900CB99C0 /* SnakeBodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80C8275008D900CB99C0 /* SnakeBodyPart.swift */; };
 		D3AF80CB2750096400CB99C0 /* SnakeHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF80CA2750096400CB99C0 /* SnakeHead.swift */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84E434CD2752399B0050975C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.Iproj/Main.storyboard; sourceTree = "<group>"; };
+		84E434CE2752399B0050975C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.Iproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AF80AC274FFB2200CB99C0 /* snake_les_8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snake_les_8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF80AF274FFB2200CB99C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3AF80B5274FFB2200CB99C0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D3AF80B7274FFB2200CB99C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		D3AF80BA274FFB2200CB99C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3AF80BC274FFB2300CB99C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3AF80BF274FFB2300CB99C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3AF80C6275002F000CB99C0 /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
 		D3AF80C8275008D900CB99C0 /* SnakeBodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeBodyPart.swift; sourceTree = "<group>"; };
 		D3AF80CA2750096400CB99C0 /* SnakeHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeHead.swift; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 				D3AF80C6275002F000CB99C0 /* Apple.swift */,
 				D3AF80CA2750096400CB99C0 /* SnakeHead.swift */,
 				D3AF80CC275009B400CB99C0 /* Snake.swift */,
-				D3AF80B9274FFB2200CB99C0 /* Main.storyboard */,
+				84E434CE2752399B0050975C /* LaunchScreen.storyboard */,
 				D3AF80BC274FFB2300CB99C0 /* Assets.xcassets */,
-				D3AF80BE274FFB2300CB99C0 /* LaunchScreen.storyboard */,
+				84E434CD2752399B0050975C /* Main.storyboard */,
 			);
 			path = snake_les_8;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3AF80BB274FFB2200CB99C0 /* Main.storyboard in Resources */,
 				D3AF80BD274FFB2300CB99C0 /* Assets.xcassets in Resources */,
-				D3AF80C0274FFB2300CB99C0 /* LaunchScreen.storyboard in Resources */,
+				84E434D02752399B0050975C /* LaunchScreen.storyboard in Resources */,
+				84E434CF2752399B0050975C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,25 +159,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D3AF80B9274FFB2200CB99C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3AF80BA274FFB2200CB99C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D3AF80BE274FFB2300CB99C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3AF80BF274FFB2300CB99C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D3AF80C1274FFB2300CB99C0 /* Debug */ = {
