@@ -14,6 +14,7 @@ class SnakeHead: SnakeBodyPart {
         self.physicsBody?.categoryBitMask = CollisionCategory.SnakeHead
         
         self.physicsBody?.contactTestBitMask = CollisionCategory.EdgeBody | CollisionCategory.Apple | CollisionCategory.SNake
+        self.fillColor = .purple
     }
     
     required init?(coder aDecoder: NSCoder) {

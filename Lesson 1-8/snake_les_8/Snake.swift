@@ -20,10 +20,14 @@ class Snake: SKShapeNode {
         let head = SnakeHead(atPoint: point)
         body.append(head)
         addChild(head)
+        
+        let newBodyPart = SnakeBodyPart(atPoint: CGPoint(x: body[0].position.x, y: body[0].position.y-10))
+        body.append(newBodyPart)
+        addChild(newBodyPart)
     }
     
     func addBodyPart() {
-        let newBodyPart = SnakeBodyPart(atPoint: CGPoint(x: body[0].position.x, y: body[0].position.y))
+        let newBodyPart = SnakeBodyPart(atPoint: CGPoint(x: body[body.count-1].position.x, y: body[body.count-1].position.y))
         body.append(newBodyPart)
         addChild(newBodyPart)
     }
